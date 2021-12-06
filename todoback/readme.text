@@ -1,0 +1,30 @@
+1/ path db module i index file "../db"
+correct "./db"
+
+
+2/ Cannot find module './../../db/models/todos'
+correct './../../db/models/todo'
+
+3/ Cannot find module 'mongoose' in db index.js
+install backage mongoose
+
+4/ Cannot find module 'mongose' in db/models/todo.js
+const mongoose = require("mongose"); 
+correct const mongoose = require("mongoose");
+
+5/  mongoose.module is not a function in \db\models\todo.j
+const todoModel = mongoose.module("Todo", todoSchema);
+correct const todoModel = mongoose.model("Todo", todoSchema);
+
+6/ add const mongoose = require("mongoose"); in index.js
+
+7/ morgan is not defined
+correct require morgan
+
+8/ add require("dotenv").config();
+
+9/ .select("task timeStamp") in getAllTodo
+delete
+
+
+
